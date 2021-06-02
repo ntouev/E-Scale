@@ -7,7 +7,7 @@ __STATIC_INLINE void delay_us(uint32_t microseconds);
 
 /* Global Vars ---------------------------------------------------------------*/
 #define AVERAGE_SAMPLES                 2
-// FL_RCVD_STRING is a string used by calibration process for synchronization purposes
+// FL_RCVD_STRING is a macro used by calibration process for synchronization purposes
 // during I-O with the user. It is set in an USART interrupt handler whenever a string is received.
 // This code is not added here.
 
